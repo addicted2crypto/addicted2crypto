@@ -15,9 +15,9 @@
 
 - 💬 Ask me about **react, TS, node, solidity**
 
-- 📫 How to reach me **addicted2krypto@gmail.com**
+- 📫 How to reach me **https://twitter.com/addicted2krypto**
 
-- 📄 Know about my experiences [@addicted2krypto on twitter](request for coffee chat.)
+- 📄 Know about my experiences [https://twitter.com/addicted2krypto](request for coffee chat.)
 
 - ⚡ Fun fact **I found coding later in my life, and im now showing my kids its ok to chase things that you are passionate about.**
 
