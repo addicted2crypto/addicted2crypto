@@ -11,7 +11,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/addicted2crypto](https://github.com/addicted2crypto)
 
-- 📝 I regularly write articles on [Twitter.](Twitter.)
+- 📝 I regularly write articles on [https://twitter.com/addicted2krypto](Twitter.)
 
 - 💬 Ask me about **react, TS, node, solidity**
 
