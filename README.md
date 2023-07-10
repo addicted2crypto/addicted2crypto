@@ -19,7 +19,7 @@
 
 - 📄 Know about my experiences [https://twitter.com/addicted2krypto]  DM => (request for coffee chat.)
 
-- ⚡ Fun fact **I found coding later in my life, and im now showing my kids its ok to chase things that you are passionate about.**
+- ⚡ Fun fact **Coding actually calms me down. I enjoy coding after a long stressful day. I found coding later in my life, and I'm now showing my kids it's okay to chase things that you are passionate about. **
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
