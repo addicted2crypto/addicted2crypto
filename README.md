@@ -13,7 +13,7 @@
 
 - 📝 I regularly write articles on [https://twitter.com/addicted2krypto](Twitter.)
 
-- 💬 Ask me about **react, TS, node, solidity**
+- 💬 Ask me about **react, typescript, node, solidity, php**
 
 - 📫 How to reach me **https://twitter.com/addicted2krypto**
 
