@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm addicted2crypto(William)</h1>
-<h3 align="center">I found my passion in code. I will continue learning new tech stacks, every day with new tech stacks!</h3>
+<h1 align="center">Hi 👋, I'm William(addicted2crypto)</h1>
+<h3 align="center">I found my passion in code. I will continue learning new tech stacks, will be coding everyday for the rest of my life!</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=addicted2crypto" alt="addicted2crypto" /></a> </p>
 
