@@ -3,7 +3,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=addicted2crypto" alt="addicted2crypto" /></a> </p>
 
-- Hi, im William and I found out I love to code on open-source projects.. [A few crypto startups.](nda will provide codebase upon req.)
+- Hi, im William and I found out I love to code.. learning new tech-stacks daily. [A few crypto startups.] ==(nda signed and will provide codebase upon req.)
 
 - 🌱 I’m currently learning anything that I find passion in. **react, typescript, AI**
 
