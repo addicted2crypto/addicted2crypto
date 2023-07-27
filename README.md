@@ -5,7 +5,7 @@
 
 - Hi, im William and I found out I love to code.. learning new tech-stacks daily. [A few crypto startups.] ==(nda signed and will provide codebase upon req.)
 
-- 🌱 I’m currently learning anything that I find passion in. **react, typescript, AI**
+- 🌱 The chase your passion lesson was finally learned.I love the analytical thinking required for coding.**react, typescript, AI**
 
 - 👯 I’m looking to collaborate on new projects where I can create value. [https://app.netlify.com/teams/addicted/overview](https://app.netlify.com/teams/addicted/overview)
 
