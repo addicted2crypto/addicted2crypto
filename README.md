@@ -19,7 +19,7 @@
 
 - 📄 Know about my experiences [https://twitter.com/addicted2krypto]  DM => (request for coffee chat.)
 
-- ⚡ Fun fact **Coding actually calms me down. I enjoy coding after a long stressful day. I found coding later in my life, and I'm now showing my kids it's better to chase things that you are passionate about, over chasing a boring "paycheck" only job. **
+- ⚡ Fun fact **Coding actually calms me down. I enjoy coding after a long stressful day. I found coding later in my life, and I'm now showing my kids it's better to chase things that you are passionate about. Chasing a "paycheck"(aka just a job) isn't the answer. **
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
