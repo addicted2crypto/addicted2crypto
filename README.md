@@ -15,7 +15,7 @@
 
 - 💬 Ask me about **react, typescript, node, solidity, php**
 
-- 📫 How to reach me **https://twitter.com/addicted2krypto**
+- 📫 How to reach me **https://twitter.com/addicted2cod3**
 
 - 📄 Know about my experiences [https://twitter.com/addicted2krypto]  DM => (request for coffee chat.)
 
