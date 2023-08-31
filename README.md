@@ -17,7 +17,7 @@
 
 - 📫 How to reach me **https://twitter.com/addicted2cod3**
 
-- 📄 Know about my experiences [https://twitter.com/addicted2krypto]  DM => (request for coffee chat.)
+- 📄 Know about my experiences [https://twitter.com/addicted2cod3]  DM => (request for coffee chat.)
 
 - ⚡ Fun fact **Coding actually calms me down. I enjoy coding after a long stressful day. I found coding later in my life, and I'm now showing my kids it's better to chase things that you are passionate about. Chasing a "paycheck"(aka just a job) isn't the answer. **
 
