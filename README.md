@@ -11,13 +11,13 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/addicted2crypto](https://github.com/addicted2crypto)
 
-- 📝 I regularly write articles and show research/projects on [https://twitter.com/addicted2cod3](Twitter.)
+- 📝 I regularly write articles and show research/projects on [https://twitter.com/addicted2deving](Twitter.)
 
 - 💬 Ask me about **react, typescript, node, solidity, php**
 
-- 📫 How to reach me **https://twitter.com/addicted2cod3**
+- 📫 How to reach me **https://twitter.com/addicted2deving**
 
-- 📄 Know about my experiences [https://twitter.com/addicted2cod3]  DM => (request for coffee chat.)
+- 📄 Know about my experiences [https://twitter.com/addicted2deving]  DM => (request for coffee chat.)
 
 - ⚡ Fun fact **Coding actually calms me down. I enjoy coding after a long stressful day. I found coding later in my life, and I'm now showing my kids it's better to chase things that you are passionate about. Chasing a "paycheck"(aka just a job) isn't the answer. **
 
