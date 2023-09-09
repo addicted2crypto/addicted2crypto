@@ -24,7 +24,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/addicted2crypto" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="addicted2crypto" height="30" width="40" /></a>
-<a href="https://twitter.com/addicted2krypto" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="addicted2krypto" height="30" width="40" /></a>
+<a href="https://twitter.com/addicted2deving" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="addicted2krypto" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/provided upon req." target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="provided upon req." height="30" width="40" /></a>
 <a href="https://medium.com/@addicted" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@addicted" height="30" width="40" /></a>
 <a href="https://discord.gg/@addicted" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="@addicted" height="30" width="40" /></a>
