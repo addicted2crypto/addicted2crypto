@@ -13,13 +13,13 @@
 
 - 📝 I regularly write articles and show research/projects on [https://twitter.com/addicted2deving](Twitter.)
 
-- 💬 Ask me about **react, typescript, node, solidity, php**
+- 💬 Ask me about **next.js, react, typescript, node, solidity, php, JS, css**
 
 - 📫 How to reach me **https://twitter.com/addicted2deving**
 
 - 📄 Know about my experiences [https://twitter.com/addicted2deving]  DM => (request for coffee chat.)
 
-- ⚡ Fun fact **Coding actually calms me down. I enjoy coding after a long stressful day. I found coding later in my life, and I'm now showing my kids it's better to chase things that you are passionate about. Chasing a "paycheck"(aka just a job) isn't the answer. **
+- ⚡ Fun fact **Coding actually calms me down. I enjoy coding after a long stressful day. Coding is my passion. I love my family and code is a close second.  **
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
