@@ -5,7 +5,7 @@
 
 - Hi, I'm William and I found out I love to code and will continue learning new tech stacks. I continue getting more clients and pushing my strategies forward.
 
-- 🌱 The chase your passion lesson was finally learned.I love the analytical thinking required for coding.**react, typescript, AI**
+- 🌱 The chase your passion lesson was finally learned.I love the analytical/critical thinking required for coding.**AI and all the things**
 
 - 👯 I’m looking to collaborate on new projects where I can create value. [https://app.netlify.com/teams/addicted/overview](https://app.netlify.com/teams/addicted/overview)
 
@@ -13,13 +13,13 @@
 
 - 📝 I regularly write articles and show research/projects on [https://twitter.com/addicted2deving](Twitter.)
 
-- 💬 Ask me about **next.js, react, typescript, node, solidity, php, JS, css**
+- 💬 Ask me about **next.js, react, typescript, node, solidity, php, JS, css, training LLM's, error handling **
 
 - 📫 How to reach me **https://twitter.com/addicted2deving**
 
 - 📄 Know about my experiences [https://twitter.com/addicted2deving]  DM => (request for coffee chat.)
 
-- ⚡ Fun fact **Coding actually calms me down. I enjoy coding after a long stressful day. Coding is my passion. I love my family and code is a close second.  **
+- ⚡ Fun fact **Coding actually calms me down. I enjoy coding after a long stressful day. Coding is my passion. I love to code and my family is a close second 😉.  **
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
