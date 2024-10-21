@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm William</h1>
+<h1 align="center">Hi 👋, I'm William(WillDev)</h1>
 <h3 align="center">I found my passion in code. Problem solving through code is everything to me.</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=addicted2crypto" alt="addicted2crypto" /></a> </p>
@@ -11,13 +11,13 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/addicted2crypto](https://github.com/addicted2crypto)
 
-- 📝 I regularly write articles and show research/projects on [https://twitter.com/addicted2deving](Twitter.)
+- 📝 I regularly write articles and show research/projects on [https://x.com/willbdeving](Twitter.)
 
 - 💬 Ask me about **next.js, react, typescript, node, solidity, php, JS, css, training LLM's, error handling **
 
-- 📫 How to reach me **https://twitter.com/addicted2deving**
+- 📫 How to reach me **https://x.com/willbdeving**
 
-- 📄 Know about my experiences [https://twitter.com/addicted2deving]  DM => (request for coffee chat.)
+- 📄 Know about my experiences [https://x.com/willbdeving]  DM => (request for coffee chat.)
 
 - ⚡ Fun fact **Coding actually calms me down. I enjoy coding after a long stressful day. Coding is my passion. I love to code and my family is a close second 😉.  **
 
