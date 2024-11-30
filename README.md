@@ -13,7 +13,7 @@
 
 - 📝 I regularly write articles and show research/projects on [https://x.com/willbdeving](Twitter.)
 
-- 💬 Ask me about **next.js, react, typescript, node, solidity, php, JS, css, training LLM's, error handling **
+- 💬 Ask me about **next.js, react, typescript, node, solidity, php, JS, css, training local LLM's, error handling **
 
 - 📫 How to reach me **https://x.com/willbdeving**
 
