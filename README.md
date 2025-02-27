@@ -3,31 +3,31 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=addicted2crypto" alt="addicted2crypto" /></a> </p>
 
-- Hi, I'm William and I love to code and will continue learning new tech stacks. I continue getting more clients and pushing my strategies forward.
+- As a self-taught developer, I’ve discovered my true passion in coding. I enjoy breaking down complex problems into manageable parts and finding creative solutions through code structure.
 
-- 🌱 The chase your passion lesson was finally learned.I love the analytical/critical thinking required for coding.**AI and all the things**
+- 🌱 With a newfound appreciation for pursuing my passions, I’m excited to explore the world of AI and machine learning. The analytical and critical thinking required for coding is what drives me.
 
-- 👯 I’m looking to collaborate on new projects where I can create value. [https://app.netlify.com/teams/addicted/overview](https://app.netlify.com/teams/addicted/overview)
+- 👯  I’m eager to collaborate on innovative projects where I can add value and learn from others. Check out my team’s work on Netlify/Github and vercel.
 
-- 👨‍💻 All of my projects are available at [https://github.com/addicted2crypto](https://github.com/addicted2crypto)
+- 👨‍💻 You can find all of my personal projects on GitHub as well as my portfolio website, showcasing my skills in various technologies. https://williamsforeverportfolio.vercel.app/
 
-- 📝 I regularly write articles and show research/projects on [https://x.com/willbdeving](Twitter.)
+- 📝 I regularly share my research, projects, and thoughts on Twitter. Feel free to follow me for updates! @willbdeving
 
-- 💬 Ask me about **next.js, react, typescript, node, solidity, php, JS, css, training local LLM's, error handling **
-
-- 📫 How to reach me **https://x.com/willbdeving**
+- 💬 Want to discuss next.js, React, TypeScript, Node, Solidity, PHP, JavaScript, CSS, or training local LLMs? I’m happy to chat about these topics and more.
+- 📫 Get in touch with me on Twitter or check out my experiences here. If you’d like to schedule a coffee chat, just send me a DM! **https://x.com/willbdeving**
 
 - 📄 Know about my experiences [https://x.com/willbdeving]  DM => (request for coffee chat.)
 
-- ⚡ Fun fact **Coding actually calms me down. I enjoy coding after a long stressful day. Coding is my passion. I love to code and my family is a close second 😉.  **
-
+- ⚡ Fun fact: coding is my therapy. After a long day, I find solace in writing code and solving problems. It’s my passion, and I’m grateful to have such a supportive family who encourages me to pursue it 😊.
+- 📨I can be reached on X(formerly Twitter @willbdeving).
+- 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/addicted2crypto" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="addicted2crypto" height="30" width="40" /></a>
-<a href="https://twitter.com/addicted2deving" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="addicted2krypto" height="30" width="40" /></a>
+<a href="https://twitter.com/willbdeving" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="willbdeving" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/provided upon req." target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="provided upon req." height="30" width="40" /></a>
-<a href="https://medium.com/@addicted" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@addicted" height="30" width="40" /></a>
-<a href="https://discord.gg/@addicted" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="@addicted" height="30" width="40" /></a>
+<a href="https://medium.com/@addicted" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@willdev" height="30" width="40" /></a>
+<a href="https://discord.gg/@addicted" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="@willdev" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
