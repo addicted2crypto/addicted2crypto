@@ -22,7 +22,7 @@
 
 - ⚡ Fun fact: coding is my therapy. After a long day, I find solace in writing code and solving problems. It’s my passion, and I’m grateful to have such a supportive family who encourages me to pursue it 😊.
 - 📨I can be reached on X(formerly Twitter @willbdeving).
-- 
+-  I do this. All day, every day.
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/addicted2crypto" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="addicted2crypto" height="30" width="40" /></a>
