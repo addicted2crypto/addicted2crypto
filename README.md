@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm William(WillDev)</h1>
 <h3 align="center">Passionate about coding and problem-solving, I thrive on creating innovative solutions through technology.</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=addicted2crypto" alt="addicted2crypto" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=addicted" alt="addicted2crypto" /></a> </p>
 
 - As a self-taught developer, I’ve discovered my true passion in coding. I enjoy breaking down complex problems into manageable parts and finding creative solutions through code structure.
 
