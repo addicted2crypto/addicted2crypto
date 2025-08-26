@@ -1,10 +1,11 @@
 <h1 align="center">Hi 👋, I'm William(WillDev)</h1>
 <h3 align="center">Passionate about coding and problem-solving, I thrive on creating innovative solutions through technology.</h3>
 
-<p align="left"> ![](https://github-trophies.vercel.app/?username=addicted2crypto)<a href="https://github.com/addicted2crypto/github-profile-trophy"><img src="https://github.com/addicted2crypto" alt="addicted2crypto" /></a> </p>
+<p align="left"><a href="https://github.com/addicted2crypto/github-profile-trophy">🤖<img src="https://github.com/addicted2crypto" alt="addicted2crypto" /></a> </p>
+ 
 
 
-- As a self-taught developer, I’ve discovered my true passion in coding. I enjoy breaking down complex problems into manageable parts and finding creative solutions through code structure.
+- As someone who seems to code more after paid work hours, I’ve discovered my true passion in coding. I enjoy breaking down complex problems into manageable parts and finding creative solutions through code structure.
 
 - 🌱 With a newfound appreciation for pursuing my passions, I’m excited to explore the world of AI and machine learning. The analytical and critical thinking required for coding is what drives me.
 
@@ -14,7 +15,7 @@
 
 - 📝 I regularly share my research, projects, and thoughts on Twitter. Feel free to follow me for updates! @willbdeving
 
-- 💬 Want to discuss next.js, React, TypeScript, Node, Solidity, PHP, JavaScript, CSS, or training local LLMs? I’m happy to chat about these topics and more.
+- 💬 Want to discuss next.js, React, TypeScript, Node, Solidity, PHP, JavaScript, CSS, C#, CMS or training local LLMs? I’m happy to chat about these topics and more.
 - 📫 Get in touch with me on Twitter or check out my experiences here. If you’d like to schedule a coffee chat, just send me a DM! **https://x.com/willbdeving**
 
 - 📄 Know about my experiences [https://x.com/willbdeving]  DM => (request for coffee chat.)
