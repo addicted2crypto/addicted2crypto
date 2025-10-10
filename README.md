@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm William(WillDev)</h1>
 <h3 align="center">Passionate about coding and problem-solving, I thrive on creating innovative solutions through technology.</h3>
 
-<p align="left"><a href="https://github.com/addicted2crypto/github-profile-trophy">🤖<img src="https://github.com/addicted2crypto" alt="addicted2crypto" /></a> </p>
+<p align="left"><a href="https://github.com/addicted2crypto/github-profile-trophy">🤖 WILL </p>
  
 
 
