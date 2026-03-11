@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, I'm Will 👋</h1>
+<h1 align="center">Hi there, I'm Will </h1>
 <h3 align="center">Full-Stack Developer | Problem Solver | Continuous Learner</h3>
 
 <p align="center">
@@ -7,19 +7,19 @@
 
 ---
 
-### 🚀 About Me
+###  About Me
 
 I'm a passionate developer who discovered that coding isn't just my profession—it's my calling. After years of coding beyond work hours, I've realized that breaking down complex problems and architecting creative solutions is where I truly thrive.
 
-- 💡 **Problem Solver at Heart**: I excel at decomposing intricate challenges into manageable components and crafting elegant solutions through thoughtful code architecture
+-  **Problem Solver at Heart**: I excel at decomposing intricate challenges into manageable components and crafting elegant solutions through thoughtful code architecture
 
-- 🌱 **Currently Exploring**: Diving deep into AI and machine learning, fascinated by the analytical thinking and innovation these fields demand
+-  **Currently Exploring**: Diving deep into AI and machine learning, fascinated by the analytical thinking and innovation these fields demand
 
-- 🤝 **Open to Collaboration**: Actively seeking opportunities to contribute to innovative projects where I can both add value and expand my knowledge. Check out my collaborative work on [Netlify](https://netlify.com) and [Vercel](https://vercel.com)
+   **Open to Collaboration**: Actively seeking opportunities to contribute to innovative projects where I can both add value and expand my knowledge. Check out my collaborative work on [Netlify](https://netlify.com) and [Vercel](https://vercel.com)
 
-- 💻 **Tech Stack**: Next.js | React | TypeScript | Node.js | Solidity | PHP | C# | CMS Architecture | Local LLM Training
+-  **Tech Stack**: Next.js | React | TypeScript | Node.js | Solidity | PHP | C# | CMS Architecture | Local LLM Training
 
-### 📊 Current Focus
+###  Current Focus
 
 - Building scalable web applications with modern JavaScript frameworks
 - Exploring blockchain technology and smart contract development
@@ -28,10 +28,10 @@ I'm a passionate developer who discovered that coding isn't just my profession�
 
 ### 🔗 Connect & Explore
 
-- 🌐 **Portfolio**: [williamsforeverportfolio.vercel.app](https://williamsforeverportfolio.vercel.app/)
-- 🐦 **Twitter/X**: [@willisdeving](https://x.com/willisdeving) - Follow for tech insights and project updates
-- 💼 **LinkedIn**: Available upon request
-- ☕ **Let's Chat**: DM me on Twitter for a virtual coffee chat about tech, projects, or collaboration opportunities
+-  **Portfolio**: [williamsforeverportfolio.vercel.app](https://williamsforeverportfolio.vercel.app/)
+-  **Twitter/X**: [@willisdeving](https://x.com/willisdeving) - Follow for tech insights and project updates
+-  **LinkedIn**: Available upon request
+-  **Let's Chat**: DM me on Twitter for a virtual coffee chat about tech, projects, or collaboration opportunities
 
 ### 💭 My Philosophy
 
@@ -39,7 +39,7 @@ I'm a passionate developer who discovered that coding isn't just my profession�
 
 After a demanding day, I find my zen in writing code and architecting solutions. It's not just what I do; it's who I am. I'm grateful for a supportive family who encourages this passion and for a community that shares this enthusiasm.
 
-### 🛠️ Technologies & Tools
+###  Technologies & Tools
 
 <details>
 <summary>Click to expand my tech stack</summary>
