@@ -28,7 +28,7 @@ I'm a passionate developer who discovered that coding isn't just my professionâ€
 
 ### ðŸ”— Connect & Explore
 
--  **Portfolio**: [williamsforeverportfolio.vercel.app](upon request)
+-  **Portfolio**: [Anon portfolio at vercel](upon request)
 -  **Twitter/X**: [@willisdeving](https://x.com/willisdeving) - Follow for tech insights and project updates
 -  **LinkedIn**: Available upon request
 -  **Let's Chat**: DM me on Twitter for a virtual coffee chat about tech, projects, or collaboration opportunities
