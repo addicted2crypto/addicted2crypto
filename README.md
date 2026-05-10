@@ -99,8 +99,8 @@ Smart contract audit methodology: Static code analysis, on-chain behavior testin
 
 | Project | Description | Stack |
 |---|---|---|
-| [WillAgent](https://github.com/addicted2crypto/willagent) | AI orchestration hub. ReACT execution layer, Claude API + local model routing, Redis state machine, typed tool registry, kill-switch, and audit logging. The central brain for my AI ecosystem. | NestJS, TypeScript, Redis |
-| [DCGP](https://github.com/addicted2crypto/dcgp) | Dynamic Context Guidance Path. Context governance kernel for LLM agents. Domain classification, entropy prediction, hallucination gating. Prevents agent bleed across multi-project workloads. | TypeScript |
+| [WillAgent](https://github.com/addicted2crypto/willagent) | Local-first AI orchestration system. Automates development workflows through a ReACT execution layer with local model routing, falling back to Claude or GPT only when extreme logic depth is required. Redis state machine, typed tool registry, kill-switch, and full audit logging. | NestJS, TypeScript, Redis, Docker |
+| [DCGP](https://github.com/addicted2crypto/dcgp) | Dynamic Context Guidance Path. A full harness ecosystem that governs local AI models to produce senior-dev-level output with zero hallucinations. Monorepo with CLI, MCP server, VS Code extension, opencode plugin, vibe-audit tooling, and domain-specific path routing. Three-tier governance hierarchy (HARDRULES > AGENTS > DCGP-SPEC) with JSON schema validation and compliance enforcement. | TypeScript, Monorepo (cli, core, mcp, vscode, opencode) |
 | [bashBot](https://github.com/addicted2crypto/bashBot) | Global bash automation bot supporting multiple languages. | Python |
 
 ---
@@ -140,8 +140,8 @@ Production dashboards running on [onchaintruth.xyz](https://onchaintruth.xyz). P
 
 ## Currently Building
 
-- WillAgent AI orchestration hub and tooling ecosystem
-- DCGP context governance system for multi-agent reliability
+- WillAgent local AI orchestration and developer automation workflows
+- DCGP governance harness for zero-hallucination local model output
 - Documentation dashboards and developer workflow tooling
 - Expanding onchaintruth.xyz data pipelines and analytics
 - Open to smart contract audit engagements and open-source collaboration
