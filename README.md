@@ -120,7 +120,7 @@ Production dashboards running on [onchaintruth.xyz](https://onchaintruth.xyz). P
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=addicted2crypto&theme=github-dark-blue&hide_border=true" />
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=addicted2crypto&theme=github-dark-blue&hide_border=true" />
 
 </div>
 
