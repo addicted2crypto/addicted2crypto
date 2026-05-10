@@ -1,9 +1,7 @@
 <div align="center">
 
-<!-- Updated Header: Prioritizes Full-Stack & DevOps, de-emphasizes Web3 initially -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Will%20%7C%20addicted2crypto&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Full-Stack%20Engineer%20%7C%20DevOps%20Engineer%20%7C%20Security%20Auditor&descAlignY=58&descSize=18" />
 
-<!-- Updated Typing SVG: Focuses on Core Stack & Security Certs -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&width=700&lines=NestJS+%7C+Next.js+%7C+TypeScript+%7C+Node.js;Full-Stack+Engineer+%7C+DevOps+%7C+Security;DoD+Contractor+%7C+CompTIA+Security%2B;Building+secure%2C+scalable+systems)](https://git.io/typing-svg)
 
 </div>
@@ -14,8 +12,8 @@
 
 Full-stack engineer with **8+ years of production experience** across federal healthcare IT, distributed systems, and infrastructure. I build systems with strict typed boundaries, documented architecture decisions, and security-first design.
 
-Day job: **DoD contract engineer** | CompTIA Security+ | IAT II.  
-Off hours: Auditing smart contracts, building SaaS tools, and shipping community projects.
+Day job: **DoD contract engineer** | CompTIA Security+ | IAT II.
+Off hours: Building AI tooling, auditing smart contracts, and shipping data-driven dashboards.
 
 I do not plateau. When a new tool ships that changes how things get built, I learn it and integrate it.
 
@@ -23,16 +21,16 @@ I do not plateau. When a new tool ships that changes how things get built, I lea
 
 ## What I Do
 
-**Full-Stack Engineering**  
+**Full-Stack Engineering**
 NestJS/Node.js backends, Next.js 14 frontends, PostgreSQL + Redis + BullMQ infrastructure, Supabase, Docker, Azure. TypeScript everywhere.
 
-**Smart Contract Auditing**  
-Static code analysis, on-chain behavior testing, and security validation. 44-audit track record with complete OWASP Smart Contract Top 10 coverage. Foundry PoC generation for adversarial threat modeling.
+**Smart Contract Auditing**
+Static code analysis, on-chain behavior testing, and security validation. 44-finding audit track record with complete OWASP Smart Contract Top 10 coverage. Foundry PoC generation for adversarial threat modeling.
 
-**Web3 Development**  
-Solidity, Hardhat, Foundry, wagmi/viem/RainbowKit, Avalanche C-Chain. Multi-module platforms with heartbeat state machines and typed Redis envelopes.
+**Web3 Development**
+Solidity, Hardhat, Foundry, wagmi/viem/RainbowKit. On-chain data pipelines, oracle integrations, LP analytics. Production dashboards backed by cron-driven data collection and custom API layers.
 
-**Federal Health IT**  
+**Federal Health IT**
 Sitecore XP/XM, ASP.NET MVC, Glass Mapper, Helix architecture, HIPAA compliance, Section 508, CAC/AD FS integration.
 
 ---
@@ -94,12 +92,20 @@ Smart contract audit methodology: Static code analysis, on-chain behavior testin
 
 | Project | Description | Stack |
 |---|---|---|
-| [AvaSleuth](https://github.com/addicted2crypto/avaseleuth) | Multi-module Web3 intelligence platform: smart contract auditing pipeline (L0-L7), wallet analysis, token radar. 5-gate anti-hallucination pipeline, Foundry proof generation, heartbeat state machine. | NestJS, TypeScript, PostgreSQL, Redis, Foundry |
-| [GymTech](https://github.com/addicted2crypto/gymtech) | Multi-tenant SaaS for martial arts and fitness studios. Stripe billing, role-based access, scheduling, member management. | Next.js 14, NestJS, Supabase, Tailwind, Stripe |
-| [DCGP](https://github.com/addicted2crypto/dcgp) | Context governance kernel for LLM agents. Entropy prediction, hallucination blocking, opencode plugin integration. | TypeScript |
-| [WillAgent](https://github.com/addicted2crypto/willagent) | NestJS ReACT orchestration system with local model and Claude API routing, Redis state, typed tool registry, kill-switch, and audit logging. | NestJS, TypeScript, Redis |
-| [Appliance Consult](https://github.com/addicted2crypto/williams_appliance_consult) | AI-powered appliance repair knowledge base. Diagnostic flows, part lookup, repair guidance. | TypeScript, Next.js |
+| [WillAgent](https://github.com/addicted2crypto/willagent) | AI orchestration hub. ReACT execution layer, Claude API + local model routing, Redis state machine, typed tool registry, kill-switch, and audit logging. The central brain for my AI ecosystem. | NestJS, TypeScript, Redis |
+| [DCGP](https://github.com/addicted2crypto/dcgp) | Dynamic Context Guidance Path. Context governance kernel for LLM agents. Domain classification, entropy prediction, hallucination gating. Prevents agent bleed across multi-project workloads. | TypeScript |
 | [bashBot](https://github.com/addicted2crypto/bashBot) | Global bash automation bot supporting multiple languages. | Python |
+
+---
+
+## Live Projects
+
+Production dashboards running on [onchaintruth.xyz](https://onchaintruth.xyz). Private repos -- the engineering is in the data pipelines, not the UI.
+
+| Project | Live | What It Does | Stack |
+|---|---|---|---|
+| hCASH Dashboard | [hcash.onchaintruth.xyz](https://hcash.onchaintruth.xyz) | Real-time investment modeling dashboard. Oracle price feeds, DEX ratio polling, miner analytics, scenario-based ROI projections. GitHub Actions cron pipeline to work around Vercel blob storage limits. | React, TypeScript, Chainlink, DexScreener API |
+| MOCA Leaderboard | [moat.onchaintruth.xyz/leaderboard](https://moat.onchaintruth.xyz/leaderboard) | Opportunity cost calculator and competitive leaderboard. Live LP reserve reads, four-scenario modeling, external API integration. | TypeScript, viem |
 
 ---
 
@@ -114,7 +120,7 @@ Smart contract audit methodology: Static code analysis, on-chain behavior testin
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=addicted2crypto&theme=github-dark-blue&hide_border=true" />
+<img src="https://streak-stats.demolab.com/?user=addicted2crypto&theme=github-dark-blue&hide_border=true" />
 
 </div>
 
@@ -138,9 +144,10 @@ Smart contract audit methodology: Static code analysis, on-chain behavior testin
 
 ## Currently Building
 
-- AvaSleuth platform expansion (ContractSleuth + WalletSleuth + TokenRadar)
-- GymTech multi-tenant SaaS to production
-- Appliance Consult AI knowledge base
+- WillAgent AI orchestration hub and tooling ecosystem
+- DCGP context governance system for multi-agent reliability
+- Documentation dashboards and developer workflow tooling
+- Expanding onchaintruth.xyz data pipelines and analytics
 - Open to smart contract audit engagements and open-source collaboration
 
 ---
@@ -148,10 +155,19 @@ Smart contract audit methodology: Static code analysis, on-chain behavior testin
 ## Connect
 
 [![Twitter](https://img.shields.io/badge/Twitter-@willisdeving-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/willisdeving)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Will-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/william360)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Will%20Is%20Coding-blue?style=for-the-badge&logo=vercel&logoColor=white)](https://williamsforeverportfolio.vercel.app)
 [![CodePen](https://img.shields.io/badge/CodePen-addicted2crypto-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/addicted2crypto)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Will%20Is%20Coding-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://williscoding.com) <!-- Replace with your actual portfolio URL -->
 
-LinkedIn available upon request. DM on Twitter.
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
+
+</div>
+
+![Profile Views](https://komarev.com/ghpvc/?username=addicted2crypto&color=58a6ff&style=flat-square&label=profile+views)
 
 ---
 
