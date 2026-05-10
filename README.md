@@ -17,6 +17,13 @@ Off hours: Building AI tooling, auditing smart contracts, and shipping data-driv
 
 I do not plateau. When a new tool ships that changes how things get built, I learn it and integrate it.
 
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/SEE%20MY%20WORK-williamsforeverportfolio.vercel.app-58A6FF?style=for-the-badge&logo=vercel&logoColor=white)](https://williamsforeverportfolio.vercel.app)
+[![Live Dashboards](https://img.shields.io/badge/LIVE%20DASHBOARDS-onchaintruth.xyz-00D4AA?style=for-the-badge&logo=vercel&logoColor=white)](https://onchaintruth.xyz)
+
+</div>
+
 ---
 
 ## What I Do
@@ -113,13 +120,6 @@ Production dashboards running on [onchaintruth.xyz](https://onchaintruth.xyz). P
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=addicted2crypto&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=addicted2crypto&layout=compact&langs_count=8&theme=github_dark&hide_border=true" />
-
-</div>
-
-<div align="center">
-
 <img src="https://streak-stats.demolab.com/?user=addicted2crypto&theme=github-dark-blue&hide_border=true" />
 
 </div>
@@ -129,10 +129,6 @@ Production dashboards running on [onchaintruth.xyz](https://onchaintruth.xyz). P
 <img src="https://github-profile-trophy.vercel.app/?username=addicted2crypto&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7" />
 
 </div>
-
----
-
-## Contribution Activity
 
 <div align="center">
 
@@ -158,16 +154,6 @@ Production dashboards running on [onchaintruth.xyz](https://onchaintruth.xyz). P
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Will-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/william360)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Will%20Is%20Coding-blue?style=for-the-badge&logo=vercel&logoColor=white)](https://williamsforeverportfolio.vercel.app)
 [![CodePen](https://img.shields.io/badge/CodePen-addicted2crypto-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/addicted2crypto)
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
-
-</div>
-
-![Profile Views](https://komarev.com/ghpvc/?username=addicted2crypto&color=58a6ff&style=flat-square&label=profile+views)
 
 ---
 
