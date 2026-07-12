@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Will%20%7C%20addicted2crypto&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=36&desc=AI%20%26%20Full-Stack%20Engineer%20%7C%20Production%20LLM%20Pipelines&descAlignY=58&descSize=18" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Will%20%7C%20addicted2crypto&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=36&desc=AI%20Engineer%20%7C%20Full-Stack%20%7C%20Production%20LLM%20Pipelines&descAlignY=58&descSize=18" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&width=700&lines=I+build+AI+systems.+Production+LLM+pipelines.;Agents+%7C+Orchestration+%7C+RAG+%7C+Local+Models;NestJS+%7C+Next.js+%7C+TypeScript+%7C+Redis;DoD+Contractor+%7C+CompTIA+Security%2B+%7C+IAT+II;Not+demos.+Production.)](https://readme-typing-svg.demolab.com)
 
