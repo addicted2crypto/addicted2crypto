@@ -148,7 +148,7 @@ Production dashboards on [onchaintruth.xyz](https://onchaintruth.xyz). Private r
 
 | Project | Live | What It Does | Stack |
 |---|---|---|---|
-| ONCHAINTRUTH.XYZ | Data matters
+| ONCHAINTRUTH.XYZ | [onchaintruth.xyz](https://hcash.onchaintruth.xyz) | Data matters... as painful as it is, seeing cost basis is helpful | Against usd and BTC
 | hCASH ROI Oracle | [hcash.onchaintruth.xyz](https://hcash.onchaintruth.xyz) | Live mining ROI calculator on Avalanche mainnet. Chainlink price oracles, real-time DexScreener data, break-even thresholds, scenario-based projections. GitHub Actions cron pipeline works around Vercel blob storage limits. | Next.js, TypeScript, Chainlink, DexScreener API |
 | Moat OCA Leaderboard | [moat.onchaintruth.xyz/leaderboard](https://moat.onchaintruth.xyz/leaderboard) | Live on-chain portfolio analyzer ranking strategy performance against AVAX and BTC benchmarks. Live LP reserve reads, four-scenario opportunity cost modeling, real-time leaderboard. | Next.js, TypeScript, viem, PostgreSQL |
 
