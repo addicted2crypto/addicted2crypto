@@ -86,7 +86,7 @@ Sitecore XP/XM, ASP.NET MVC, Helix architecture, Docker-based local development,
 
 ### AI & LLM
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![Qwen](https://img.shields.io/badge/Qwen3.6--27B-6236FF?style=flat-square&logoColor=white)
+![Qwen](https://img.shields.io/badge/Qwen3.8-6236FF?style=flat-square&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=claude&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-1C1E26?style=flat-square&logoColor=white)
 ![Agents](https://img.shields.io/badge/Agents-58A6FF?style=flat-square&logoColor=white)
