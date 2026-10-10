@@ -37,30 +37,26 @@ DoD-cleared and Security+ certified. I bring that standard to every system I bui
 
 Three layers, all built from scratch. Local models doing real work in live, high-stakes environments, with cloud APIs only where extreme logic depth demands it.
 
-```
-DCGP (kernel)               Context governance for local LLM development.
-                            Typed context boundaries, entropy prediction
-                            before hallucinations occur, deterministic
-                            output gating. Ships as an opencode plugin.
-        |
-WillAgent (orchestration)   ReACT execution layer dual-routing between
-                            local models (Ollama/Qwen) and the Claude API.
-                            Typed tool registry, Redis state persistence,
-                            kill-switch termination, full audit logging.
-        |
-EvmSleuth (application)     The stack applied to a live ecosystem:
-                            contract analysis, smart wallet tracking
-                            (1047 identities indexed), token radar.
-```
+    DCGP (kernel)               Context governance for local LLM development.
+                                Typed context boundaries, entropy prediction
+                                before hallucinations occur, deterministic
+                                output gating. Ships as an opencode plugin.
+            |
+    WillAgent (orchestration)   ReACT execution layer dual-routing between
+                                local models (Ollama/Qwen) and the Claude API.
+                                Typed tool registry, Redis state persistence,
+                                kill-switch termination, full audit logging.
+            |
+    EVMSleuth (application)     The stack applied to a live ecosystem:
+                                contract analysis, smart wallet tracking
+                                (1047 identities indexed), token radar.
 
-```
-$ Willagent
-Willagent Primary: Qwen3.8 | Critical: Claude
-Token flow: scan -> who_bought <token> -> inspect <token>
-Smart wallets: 1047 identities indexed
-Type help or ? to see all commands.
->
-```
+    $ willagent
+    WillAgent ready. Primary: Qwen3.8 | Critical: Claude
+    Token flow: scan -> who_bought <token> -> inspect <token>
+    Smart wallets: 1047 identities indexed
+    Type help or ? to see all commands.
+    >
 
 The point is not any single layer. It is that governance, orchestration, and application are one coherent system: every agent action is typed, gated, audited, and reproducible on my own hardware.
 
@@ -69,7 +65,7 @@ The point is not any single layer. It is that governance, orchestration, and app
 ## What I Do
 
 **AI Systems Engineering**
-Production LLM pipelines: local model orchestration (Ollama, Qwen3.6-27B), Claude API integration, RAG, agent frameworks with typed tool registries, hallucination gating, and full audit surfaces. Redis state machines and BullMQ job infrastructure underneath.
+Production LLM pipelines: local model orchestration (Ollama, Qwen3.8), Claude API integration, RAG, agent frameworks with typed tool registries, hallucination gating, and full audit surfaces. Redis state machines and BullMQ job infrastructure underneath.
 
 **Full-Stack Engineering**
 NestJS/Node.js backends, Next.js 14 frontends, PostgreSQL + Redis + BullMQ infrastructure, Supabase, Docker, Azure. TypeScript everywhere, strict typed boundaries, documented architecture decisions.
@@ -136,19 +132,19 @@ Sitecore XP/XM, ASP.NET MVC, Helix architecture, Docker-based local development,
 
 | Project | Description | Stack |
 |---|---|---|
-| [DCGP](https://github.com/addicted2crypto/dcgp) | Dynamic Context Guidance Path. Live context governance ecosystem for local LLM development. Enforces typed context boundaries, predicts entropy before hallucinations occur, and gates deterministic output across any agentic pipeline. Monorepo with CLI, MCP server, VS Code extension, opencode plugin, and vibe-audit tooling. Three-tier governance hierarchy (HARDRULES > AGENTS > DCGP-SPEC) with JSON schema validation. The kernel powering the WillAgent and AvaSleuth ecosystem. | TypeScript, Monorepo (cli, core, mcp, vscode, opencode) |
-| [WillAgent](https://github.com/addicted2crypto/willagent) | Local model orchestration framework and the middle layer of the local AI stack. Dual-routes between local models (Ollama/Qwen3.6-27B) and the Claude API using a ReACT pattern with a typed tool registry. Redis state persistence, kill-switch agent termination, and full audit logging give deterministic control over autonomous AI workloads. Built to run real tasks on your own hardware without depending on cloud APIs. | NestJS, TypeScript, Redis, Docker, Ollama |
-| EVMSleuth | Production application on top of DCGP + WillAgent. Applies local model intelligence to a live ecosystem: contract analysis, smart wallet tracking (1047 identities indexed), and token radar, all running on Qwen3.6-27B with hallucination gating and Claude reserved for critical-depth reasoning. Private repo. | NestJS, TypeScript, PostgreSQL, Redis, BullMQ |
+| [DCGP](https://github.com/addicted2crypto/DCGP) | Dynamic Context Guidance Path. Live context governance ecosystem for local LLM development. Enforces typed context boundaries, predicts entropy before hallucinations occur, and gates deterministic output across any agentic pipeline. Monorepo with CLI, MCP server, VS Code extension, opencode plugin, and vibe-audit tooling. Three-tier governance hierarchy (HARDRULES > AGENTS > DCGP-SPEC) with JSON schema validation. The kernel powering the WillAgent and EVMSleuth ecosystem. | TypeScript, Monorepo (cli, core, mcp, vscode, opencode) |
+| [WillAgent](https://github.com/addicted2crypto/willagent) | Local model orchestration framework and the engine behind the live stack. Dual-routes between local models (Ollama/Qwen3.8) and the Claude API using a ReACT pattern with a typed tool registry. Redis state persistence, kill-switch agent termination, and full audit logging give deterministic control over autonomous AI workloads. Built to run real tasks on your own hardware without depending on cloud APIs. | NestJS, TypeScript, Redis, Docker, Ollama |
+| EVMSleuth | Production application on top of DCGP + WillAgent. Applies local model intelligence to a live ecosystem: contract analysis, smart wallet tracking (1047 identities indexed), and token radar, all running on Qwen3.8 with hallucination gating and Claude reserved for critical-depth reasoning. Private repo. | NestJS, TypeScript, PostgreSQL, Redis, BullMQ |
 
 ---
 
 ## Live Projects
 
-Production dashboards on [onchaintruth.xyz](https://onchaintruth.xyz). Private repos -- the engineering is in the data pipelines, not the UI.
+Production on [onchaintruth.xyz](https://onchaintruth.xyz) and its subdomains. Private repos where it matters -- the engineering is in the data pipelines, not the UI.
 
 | Project | Live | What It Does | Stack |
 |---|---|---|---|
-| ONCHAINTRUTH.XYZ | [onchaintruth.xyz](https://hcash.onchaintruth.xyz) | Data matters... as painful as it is, seeing cost basis is helpful | Against usd and BTC
+| onchaintruth.xyz | [onchaintruth.xyz](https://onchaintruth.xyz) | Main landing page and portfolio truth surface: cost basis and P&L seen clearly against USD and BTC. Data matters -- as painful as it is. | Next.js, TypeScript, viem, PostgreSQL |
 | hCASH ROI Oracle | [hcash.onchaintruth.xyz](https://hcash.onchaintruth.xyz) | Live mining ROI calculator on Avalanche mainnet. Chainlink price oracles, real-time DexScreener data, break-even thresholds, scenario-based projections. GitHub Actions cron pipeline works around Vercel blob storage limits. | Next.js, TypeScript, Chainlink, DexScreener API |
 | Moat OCA Leaderboard | [moat.onchaintruth.xyz/leaderboard](https://moat.onchaintruth.xyz/leaderboard) | Live on-chain portfolio analyzer ranking strategy performance against AVAX and BTC benchmarks. Live LP reserve reads, four-scenario opportunity cost modeling, real-time leaderboard. | Next.js, TypeScript, viem, PostgreSQL |
 
@@ -168,22 +164,33 @@ Security is the floor, not a feature. DoD-cleared, Security+ certified, and a 44
 
 ## GitHub Stats
 
-<div align="center">
-
-<img src="./profile/streak.svg" alt="GitHub streak: 3805 total contributions, 591-day current streak, longest 659 days" width="495" />
-
-</div>
-
-<div align="center">
-
-<img src="./profile/activity.svg" alt="Contribution activity graph for the last 31 days" width="820" />
-</div>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com/?user=addicted2crypto&theme=github-dark-blue&hide_border=true&disable_animations=true&timezone=America/Los_Angeles" alt="GitHub streak: 3815 total contributions, current streak of 591 days since February 26 2025, longest streak of 659 days" /></a><sup>1</sup>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=addicted2crypto&theme=github-dark-blue&hide_border=true&count_private=true&include_all_commits=true&show_icons=true<sup>2</sup>" alt="GitHub stats: A++ rating, 23 total stars, 4.3k commits, 18 pull requests, 51 issues" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=addicted2crypto&layout=compact&langs_count=8&hide_border=true&theme=github-dark-blue<sup>3</sup>" alt="Top languages led by TypeScript at 46 percent, then HTML, JavaScript, Python" width="70%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="https://github-readme-activity-graph-delta.vercel.app/graph?username=addicted2crypto&theme=github-compact&hide_border=true&area=true<sup>4</sup>" alt="Contribution activity graph for the last 31 days" width="95%" />
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## Currently Building
 
-- Onchain truth. Get all you real data from investing in anything but BTC. Data matters.
+- Onchain truth. Get all your real data from investing in anything but BTC. Data matters.
+- WillAgent Live: landing page, smart wallet index (1047 identities), token radar, and contract analysis on the local AI stack
 - WillAgent orchestration and developer automation workflows
 - DCGP governance harness for zero-hallucination local model output
 - GymTech multi-tenant SaaS to production
@@ -202,6 +209,6 @@ Security is the floor, not a feature. DoD-cleared, Security+ certified, and a 44
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="" />
 
 </div>
