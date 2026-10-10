@@ -48,14 +48,14 @@ WillAgent (orchestration)   ReACT execution layer dual-routing between
                             Typed tool registry, Redis state persistence,
                             kill-switch termination, full audit logging.
         |
-AvaSleuth (application)     The stack applied to a live ecosystem:
+EvmSlueth (application)     The stack applied to a live ecosystem:
                             contract analysis, smart wallet tracking
                             (1047 identities indexed), token radar.
 ```
 
 ```
-$ avasleuth
-AvaSleuth ready. Primary: Qwen3.6-27B | Critical: Claude
+$ Willagent
+Willagent Primary: Qwen3.8 | Critical: Claude
 Token flow: scan -> who_bought <token> -> inspect <token>
 Smart wallets: 1047 identities indexed
 Type help or ? to see all commands.
