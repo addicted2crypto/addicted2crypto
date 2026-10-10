@@ -48,7 +48,7 @@ WillAgent (orchestration)   ReACT execution layer dual-routing between
                             Typed tool registry, Redis state persistence,
                             kill-switch termination, full audit logging.
         |
-EvmSlueth (application)     The stack applied to a live ecosystem:
+EvmSleuth (application)     The stack applied to a live ecosystem:
                             contract analysis, smart wallet tracking
                             (1047 identities indexed), token radar.
 ```
@@ -138,7 +138,7 @@ Sitecore XP/XM, ASP.NET MVC, Helix architecture, Docker-based local development,
 |---|---|---|
 | [DCGP](https://github.com/addicted2crypto/dcgp) | Dynamic Context Guidance Path. Live context governance ecosystem for local LLM development. Enforces typed context boundaries, predicts entropy before hallucinations occur, and gates deterministic output across any agentic pipeline. Monorepo with CLI, MCP server, VS Code extension, opencode plugin, and vibe-audit tooling. Three-tier governance hierarchy (HARDRULES > AGENTS > DCGP-SPEC) with JSON schema validation. The kernel powering the WillAgent and AvaSleuth ecosystem. | TypeScript, Monorepo (cli, core, mcp, vscode, opencode) |
 | [WillAgent](https://github.com/addicted2crypto/willagent) | Local model orchestration framework and the middle layer of the local AI stack. Dual-routes between local models (Ollama/Qwen3.6-27B) and the Claude API using a ReACT pattern with a typed tool registry. Redis state persistence, kill-switch agent termination, and full audit logging give deterministic control over autonomous AI workloads. Built to run real tasks on your own hardware without depending on cloud APIs. | NestJS, TypeScript, Redis, Docker, Ollama |
-| AvaSleuth | Production application on top of DCGP + WillAgent. Applies local model intelligence to a live ecosystem: contract analysis, smart wallet tracking (1047 identities indexed), and token radar, all running on Qwen3.6-27B with hallucination gating and Claude reserved for critical-depth reasoning. Private repo. | NestJS, TypeScript, PostgreSQL, Redis, BullMQ |
+| EVMSleuth | Production application on top of DCGP + WillAgent. Applies local model intelligence to a live ecosystem: contract analysis, smart wallet tracking (1047 identities indexed), and token radar, all running on Qwen3.6-27B with hallucination gating and Claude reserved for critical-depth reasoning. Private repo. | NestJS, TypeScript, PostgreSQL, Redis, BullMQ |
 
 ---
 
@@ -148,6 +148,7 @@ Production dashboards on [onchaintruth.xyz](https://onchaintruth.xyz). Private r
 
 | Project | Live | What It Does | Stack |
 |---|---|---|---|
+| ONCHAINTRUTH.XYZ | Data matters
 | hCASH ROI Oracle | [hcash.onchaintruth.xyz](https://hcash.onchaintruth.xyz) | Live mining ROI calculator on Avalanche mainnet. Chainlink price oracles, real-time DexScreener data, break-even thresholds, scenario-based projections. GitHub Actions cron pipeline works around Vercel blob storage limits. | Next.js, TypeScript, Chainlink, DexScreener API |
 | Moat OCA Leaderboard | [moat.onchaintruth.xyz/leaderboard](https://moat.onchaintruth.xyz/leaderboard) | Live on-chain portfolio analyzer ranking strategy performance against AVAX and BTC benchmarks. Live LP reserve reads, four-scenario opportunity cost modeling, real-time leaderboard. | Next.js, TypeScript, viem, PostgreSQL |
 
