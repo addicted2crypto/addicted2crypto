@@ -170,14 +170,13 @@ Security is the floor, not a feature. DoD-cleared, Security+ certified, and a 44
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=addicted2crypto&theme=github-dark-blue&hide_border=true" />
+<img src="./profile/streak.svg" alt="GitHub streak: 3805 total contributions, 591-day current streak, longest 659 days" width="495" />
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=addicted2crypto&theme=github-compact&hide_border=true&area=true" />
-
+<img src="./profile/activity.svg" alt="Contribution activity graph for the last 31 days" width="820" />
 </div>
 
 ---
