@@ -1,13 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=0D1117&amp;height=200&amp;section=header&amp;text=Will+%7C+addicted2crypto&amp;fontSize=48&amp;fontColor=F0F6FC&amp;fontAlignY=36&amp;desc=C%23+%2F+.NET+%7C+SQL+%26+Data+Research+%7C+AI+Systems+%7C+Full-Stack&amp;descAlignY=58&amp;descSize=16" alt="Will | addicted2crypto — C#/.NET, SQL and data research, AI systems, full-stack engineering" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=200&section=header&text=Will+%7C+addicted2crypto&fontSize=48&fontColor=F0F6FC&fontAlignY=36&desc=C%23+%2F+.NET+%7C+SQL+%26+Data+Research+%7C+AI+Systems+%7C+Secure+Full-Stack&descAlignY=58&descSize=16" alt="Will | addicted2crypto — C#/.NET, SQL and data research, AI systems, secure full-stack engineering" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=19&amp;duration=3000&amp;pause=1000&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=850&amp;lines=C%23+%2F+.NET+%2F+SQL+%2F+TypeScript+%2F+Python+%2F+JavaScript%3BData+research+%2F+Pipelines+%2F+On-chain+analytics%3BAI+systems+%2F+Local+models+%2F+RAG+%2F+Agents%3BASP.NET+MVC+%2F+NestJS+%2F+Next.js+%2F+PostgreSQL" alt="C#, .NET, SQL, TypeScript, Python and JavaScript; data research, pipelines, AI systems and full-stack applications" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=850&lines=C%23+%2F+.NET+%2F+SQL+%2F+TypeScript+%2F+Python+%2F+JavaScript%3BSecure+systems+%2F+AI+engineering+%2F+Data+platforms%3BLocal+LLMs+%2F+RAG+%2F+Agents+%2F+Governance%3BOn-chain+research+%2F+Production+dashboards" alt="C#, .NET, SQL, TypeScript, Python and JavaScript; secure systems, AI engineering, data platforms; local LLMs, RAG, agents, governance; on-chain research and production dashboards" />
 
+**AI Engineer · Secure Full-Stack Engineer · Data & Systems Builder**
 
-**C# / .NET · SQL & Data Research · AI Systems · Full-Stack Engineering**
-
-`C#` · `SQL` · `TypeScript` · `Python` · `JavaScript`
+`C#` · `.NET` · `SQL` · `TypeScript` · `Python` · `JavaScript` · `AI Systems`
 
 [Portfolio](https://williamsforeverportfolio.vercel.app) · [Live data products](https://onchaintruth.xyz) · [LinkedIn](https://linkedin.com/in/william360)
 
@@ -24,12 +23,13 @@
 
 ## About
 
-Software engineer with **8+ years shipping production systems**, spanning **C#/.NET, SQL-backed data research, AI systems, and full-stack applications**. I build services, data pipelines, local model orchestration, and the interfaces that turn complex information into useful decisions.
+I build secure, production-grade systems at the intersection of **AI engineering, full-stack development, data research, and operational infrastructure**.
 
-Day job: **DoD contract engineer** heading up DHA.mil, the first Docker-based pubweb instance in government production | CompTIA Security+ | IAT II.
-Off hours: Building a local AI stack from kernel to application, and shipping live on-chain dashboards at [onchaintruth.xyz](https://onchaintruth.xyz).
+With **8+ years shipping systems in production**, I’ve worked across **C#/.NET, SQL-backed analytics, AI systems, secure enterprise platforms, and live data products**. My work spans local model orchestration, RAG and agent frameworks, full-stack application design, data pipelines, and the infrastructure behind real-world decision support.
 
-DoD-cleared and Security+ certified. I bring that standard to every system I build, from AI to full-stack to on-chain. I do not plateau. When a new tool ships that changes how things get built, I learn it and integrate it.
+My day job is **DoD contract engineering**, where I build and support secure, mission-relevant systems in a high-trust environment. I hold **CompTIA Security+** and **DoD IAT II** credentials, and I bring that same security-first mentality into every project I build outside of work.
+
+I also build and ship live on-chain analytics and research systems through [onchaintruth.xyz](https://onchaintruth.xyz), creating production dashboards, data products, and intelligence tooling for real-world market signals.
 
 <div align="center">
 
@@ -40,48 +40,40 @@ DoD-cleared and Security+ certified. I bring that standard to every system I bui
 
 ---
 
-## Flagship: The Local AI Stack
+## Current Focus
 
-Three layers, all built from scratch. Local models doing real work in live, high-stakes environments, with cloud APIs only where extreme logic depth demands it.
+> Building AI systems, secure data infrastructure, and production-grade analytics for real-world environments.
 
-    DCGP (kernel)               Context governance for local LLM development.
-                                Typed context boundaries, entropy prediction
-                                before hallucinations occur, deterministic
-                                output gating. Ships as an opencode plugin.
-            |
-    WillAgent (orchestration)   ReACT execution layer dual-routing between
-                                local models (Ollama/Qwen) and the Claude API.
-                                Typed tool registry, Redis state persistence,
-                                kill-switch termination, full audit logging.
-            |
-    EVMSleuth (application)     The stack applied to a live ecosystem:
-                                contract analysis, smart wallet tracking
-                                (1047 identities indexed), token radar.
-
-    $ willagent
-    WillAgent ready. Primary: Qwen3.8 | Critical: Claude
-    Token flow: scan -> who_bought <token> -> inspect <token>
-    Smart wallets: 1047 identities indexed
-    Type help or ? to see all commands.
-    >
-
-The point is not any single layer. It is that governance, orchestration, and application are one coherent system: every agent action is typed, gated, audited, and reproducible on my own hardware.
+- Local LLM orchestration and agent runtime design
+- RAG, governance, and hallucination-resistant AI workflows
+- Secure full-stack systems and distributed application patterns
+- SQL-first research, data modeling, and analytics pipelines
+- On-chain intelligence, dashboards, and market signal systems
 
 ---
 
-## What I Do
+## Featured Work
 
-**AI Systems Engineering**
-Production LLM pipelines: local model orchestration (Ollama, Qwen3.8), Claude API integration, RAG, agent frameworks with typed tool registries, hallucination gating, and full audit surfaces. Redis state machines and BullMQ job infrastructure underneath.
+- [DCGP](https://github.com/addicted2crypto/DCGP) — Dynamic Context Guidance Paths. A governance layer for local LLM sessions, entropy prediction, context retention, and deterministic AI control.
+- [WillAgent](https://github.com/addicted2crypto/willagent) — Local orchestration framework for dual-routing between local models and API-based inference with typed tool execution and auditability.
+- [onchaintruth.xyz](https://onchaintruth.xyz) — Live on-chain analytics and production dashboards built for real-time market and portfolio intelligence.
+- EVMSleuth — Private production research and analysis system focused on smart wallet tracking, contract analysis, and token intelligence.
 
-**C#/.NET & Full-Stack Engineering**
-C#, .NET, ASP.NET MVC, Sitecore, and NestJS/Node.js backends; Next.js frontends; SQL and PostgreSQL data layers; Redis + BullMQ infrastructure, Supabase, Docker, and Azure. Explicit boundaries and documented architecture decisions.
+---
 
-**SQL, Data Research & Live Dashboards**
-SQL-backed data modeling, scheduled ingestion, on-chain analysis, oracle price feeds, and custom API layers powering onchaintruth.xyz. Research interfaces that make assumptions, baselines, and comparisons easier to inspect.
+## What I Build
 
-**Federal Health IT**
-Sitecore XP/XM, ASP.NET MVC, Helix architecture, Docker-based local development, HIPAA compliance, Section 508, CAC/AD FS integration. Security-first by default.
+**AI Systems & Agent Architecture**  
+Local model orchestration, multi-agent workflows, RAG pipelines, typed tool registries, process governance, and AI systems that are structured, observable, and reliable in production.
+
+**Secure Full-Stack Engineering**  
+C#, .NET, ASP.NET MVC, Sitecore, Node.js, NestJS, Next.js, PostgreSQL, Redis, Docker, and cloud-native application architecture designed for operational trust and maintainability.
+
+**Data Research & Analytics**  
+SQL-backed data modeling, ingestion pipelines, analytics platforms, and data products that turn raw information into decision support for real-world use cases.
+
+**Mission-Sensitive & Security-First Systems**  
+I work in environments where reliability and security matter. My background includes secure enterprise systems, DoD-related infrastructure, and compliance-sensitive workflows.
 
 ---
 
@@ -103,35 +95,26 @@ Sitecore XP/XM, ASP.NET MVC, Helix architecture, Docker-based local development,
 ![Agents](https://img.shields.io/badge/Agents-58A6FF?style=flat-square&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-2C2C2C?style=flat-square&logoColor=white)
 
-### Core Backend & Infrastructure
+### Backend & Infrastructure
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![BullMQ](https://img.shields.io/badge/BullMQ-FF6B6B?style=flat-square&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ### Frontend
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
 
-### DevOps & Cloud
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0089D0?style=flat-square&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-### Enterprise & CMS
+### Security & Enterprise
+![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-FF0000?style=flat-square&logoColor=white)
+![DoD IAT II](https://img.shields.io/badge/DoD-IAT%20Level%20II-003087?style=flat-square&logoColor=white)
 ![Sitecore](https://img.shields.io/badge/Sitecore-EB1F1F?style=flat-square&logo=sitecore&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![OWASP](https://img.shields.io/badge/OWASP-SC%20Top%2010%202026-000000?style=flat-square&logo=owasp&logoColor=white)
 
 ### Web3
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
@@ -143,74 +126,86 @@ Sitecore XP/XM, ASP.NET MVC, Helix architecture, Docker-based local development,
 
 ---
 
-## Featured Projects
-
-| Project | Description | Stack |
-|---|---|---|
-| [DCGP](https://github.com/addicted2crypto/DCGP) | Dynamic Context Guidance Path. Live context governance ecosystem for local LLM development. Enforces typed context boundaries, predicts entropy before hallucinations occur, and gates deterministic output across any agentic pipeline. Monorepo with CLI, MCP server, VS Code extension, opencode plugin, and vibe-audit tooling. Three-tier governance hierarchy (HARDRULES > AGENTS > DCGP-SPEC) with JSON schema validation. The kernel powering the WillAgent and EVMSleuth ecosystem. | TypeScript, Monorepo (cli, core, mcp, vscode, opencode) |
-| [WillAgent](https://github.com/addicted2crypto/willagent) | Local model orchestration framework and the engine behind the live stack. Dual-routes between local models (Ollama/Qwen3.8) and the Claude API using a ReACT pattern with a typed tool registry. Redis state persistence, kill-switch agent termination, and full audit logging give deterministic control over autonomous AI workloads. Built to run real tasks on your own hardware without depending on cloud APIs. | NestJS, TypeScript, Redis, Docker, Ollama |
-| EVMSleuth | Production application on top of DCGP + WillAgent. Applies local model intelligence to a live ecosystem: contract analysis, smart wallet tracking (1047 identities indexed), and token radar, all running on Qwen3.8 with hallucination gating and Claude reserved for critical-depth reasoning. Private repo. | NestJS, TypeScript, PostgreSQL, Redis, BullMQ |
-
----
-
 ## Live Projects
 
-Production on [onchaintruth.xyz](https://onchaintruth.xyz) and its subdomains. Private repos where it matters -- the engineering is in the data pipelines, not the UI.
+| Project | Live | What It Does |
+|---|---|---|
+| onchaintruth.xyz | [onchaintruth.xyz](https://onchaintruth.xyz) | Portfolio truth surface and production analytics for market data and on-chain intelligence |
+| hCASH ROI Oracle | [hcash.onchaintruth.xyz](https://hcash.onchaintruth.xyz) | Live mining ROI calculator with oracle-driven scenario analysis on Avalanche |
+| Moat OCA Leaderboard | [moat.onchaintruth.xyz/leaderboard](https://moat.onchaintruth.xyz/leaderboard) | Strategy benchmarking and opportunity-cost modeling across live market signals |
 
-| Project | Live | What It Does | Stack |
-|---|---|---|---|
-| onchaintruth.xyz | [onchaintruth.xyz](https://onchaintruth.xyz) | Main landing page and portfolio truth surface: cost basis and P&L seen clearly against USD and BTC. Data matters -- as painful as it is. | Next.js, TypeScript, viem, PostgreSQL |
-| hCASH ROI Oracle | [hcash.onchaintruth.xyz](https://hcash.onchaintruth.xyz) | Live mining ROI calculator on Avalanche mainnet. Chainlink price oracles, real-time DexScreener data, break-even thresholds, scenario-based projections. GitHub Actions cron pipeline works around Vercel blob storage limits. | Next.js, TypeScript, Chainlink, DexScreener API |
-| Moat OCA Leaderboard | [moat.onchaintruth.xyz/leaderboard](https://moat.onchaintruth.xyz/leaderboard) | Live on-chain portfolio analyzer ranking strategy performance against AVAX and BTC benchmarks. Live LP reserve reads, four-scenario opportunity cost modeling, real-time leaderboard. | Next.js, TypeScript, viem, PostgreSQL |
-
-Also in production development: **GymTech**, a multi-tenant SaaS platform for martial arts and fitness gyms. Role-based access control, tier-based subscriptions, Stripe Connect payment processing, QR check-in, landing page builder, PostgreSQL triggers enforcing tier limits.
+Also in production development: **GymTech**, a multi-tenant SaaS platform for gyms and fitness clubs with role-based access, billing workflows, QR check-in, and tier enforcement.
 
 ---
 
-## Security Background
+## Security & Systems Background
 
-![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-FF0000?style=flat-square&logoColor=white)
-![DoD IAT II](https://img.shields.io/badge/DoD-IAT%20Level%20II-003087?style=flat-square&logoColor=white)
-![OWASP](https://img.shields.io/badge/OWASP-SC%20Top%2010%202026-000000?style=flat-square&logo=owasp&logoColor=white)
+Security is a design requirement, not a bolt-on. My work reflects that mindset across:
+- secure enterprise application architecture
+- DoD and compliance-sensitive infrastructure
+- production monitoring and trust boundaries
+- resilient backends and data systems
+- AI systems with evidence, logging, and governance controls
 
-Security is the floor, not a feature. DoD-cleared, Security+ certified, and a 44-finding smart contract audit track record with full OWASP Smart Contract Top 10 2026 coverage. That adversarial mindset is baked into every AI pipeline I build: hallucination gates, evidence requirements, and audit logging are security controls, just aimed at models instead of attackers.
+I bring a disciplined, operational lens to engineering — especially when systems need to be both secure and scalable.
 
 ---
 
 ## GitHub Stats
 
-**Explore activity on GitHub:** [2026](https://github.com/addicted2crypto?tab=overview&from=2026-01-01&to=2026-12-31) · [2025](https://github.com/addicted2crypto?tab=overview&from=2025-01-01&to=2025-12-31) · [2024](https://github.com/addicted2crypto?tab=overview&from=2024-01-01&to=2024-12-31) · [2023](https://github.com/addicted2crypto?tab=overview&from=2023-01-01&to=2023-12-31) · [2022](https://github.com/addicted2crypto?tab=overview&from=2022-01-01&to=2022-12-31)
+**Explore activity on GitHub:**  
+[Profile overview](https://github.com/addicted2crypto) · [Repositories](https://github.com/addicted2crypto?tab=repositories)
 
-**Browse public code:** [C#](https://github.com/search?q=user%3Aaddicted2crypto+language%3AC%23&type=repositories) · [SQL](https://github.com/search?q=user%3Aaddicted2crypto+language%3ASQL&type=repositories) · [TypeScript](https://github.com/search?q=user%3Aaddicted2crypto+language%3ATypeScript&type=repositories) · [Python](https://github.com/search?q=user%3Aaddicted2crypto+language%3APython&type=repositories) · [JavaScript](https://github.com/search?q=user%3Aaddicted2crypto+language%3AJavaScript&type=repositories)
+**Browse public code:**  
+[C#](https://github.com/search?q=user%3Aaddicted2crypto+language%3AC%23&type=repositories) ·
+[SQL](https://github.com/search?q=user%3Aaddicted2crypto+language%3ASQL&type=repositories) ·
+[TypeScript](https://github.com/search?q=user%3Aaddicted2crypto+language%3ATypeScript&type=repositories) ·
+[Python](https://github.com/search?q=user%3Aaddicted2crypto+language%3APython&type=repositories) ·
+[JavaScript](https://github.com/search?q=user%3Aaddicted2crypto+language%3AJavaScript&type=repositories)
 
 <p align="center">
-  <a href="https://github.com/addicted2crypto?tab=overview"><img src="https://github-stats-extended.vercel.app/api?username=addicted2crypto&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=F0F6FC&amp;text_color=A8B3C2&amp;icon_color=22D3EE&amp;include_all_commits=true&amp;show_icons=true&amp;hide_rank=true&amp;contribs_include_own_repos=true&amp;show=reviews%2Cprs_merged&amp;number_format=long&amp;disable_animations=true&amp;custom_title=Engineering+activity" alt="GitHub stars, commits, pull requests, issues, reviews, and contributed repositories. Click to inspect source activity." width="49%" /></a>
-  <a href="https://github.com/addicted2crypto?tab=overview"><img src="https://streak-stats.demolab.com/?user=addicted2crypto&amp;hide_border=true&amp;background=0D1117&amp;stroke=30363D&amp;ring=22D3EE&amp;fire=22D3EE&amp;currStreakNum=F0F6FC&amp;sideNums=F0F6FC&amp;currStreakLabel=22D3EE&amp;sideLabels=A8B3C2&amp;dates=8B949E&amp;disable_animations=true&amp;timezone=America%2FLos_Angeles&amp;mode=daily" alt="Daily contribution streak, longest streak, and account-history contribution total. Click to inspect the contribution calendar." width="49%" /></a>
+  <a href="https://github.com/addicted2crypto">
+    <img src="https://github-stats-extended.vercel.app/api?username=addicted2crypto&hide_border=true&bg_color=0D1117&title_color=F0F6FC&text_color=A8B3C2&icon_color=22D3EE&include_all_commits=true&show_icons=true&hide_rank=true&contribs_include_own_repos=true&show=reviews%2Cprs_merged&number_format=long&disable_animations=true&custom_title=Engineering+activity" alt="GitHub stats and engineering activity" width="49%" />
+  </a>
+  <a href="https://github.com/addicted2crypto">
+    <img src="https://streak-stats.demolab.com/?user=addicted2crypto&hide_border=true&background=0D1117&stroke=30363D&ring=22D3EE&fire=22D3EE&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=22D3EE&sideLabels=A8B3C2&dates=8B949E&disable_animations=true&timezone=America%2FLos_Angeles&mode=daily" alt="Daily contribution streak" width="49%" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/addicted2crypto?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=addicted2crypto&amp;theme=github_dark" alt="Language distribution across repositories, generated by GitHub Profile Summary Cards. Click to browse public repositories." width="49%" /></a>
-  <a href="https://github.com/addicted2crypto?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=addicted2crypto&amp;theme=github_dark" alt="Commit-based language summary from GitHub Profile Summary Cards. Click to browse source repositories." width="49%" /></a>
+  <a href="https://github.com/addicted2crypto?tab=repositories">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=addicted2crypto&theme=github_dark" alt="Language distribution across repositories" width="49%" />
+  </a>
+  <a href="https://github.com/addicted2crypto?tab=repositories">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=addicted2crypto&theme=github_dark" alt="Commit-based language summary" width="49%" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/addicted2crypto?tab=overview"><img src="https://github-readme-activity-graph.vercel.app/graph?username=addicted2crypto&amp;hide_border=true&amp;bg_color=0D1117&amp;color=A8B3C2&amp;title_color=F0F6FC&amp;line=22D3EE&amp;point=F0F6FC&amp;area=true&amp;area_color=22D3EE&amp;custom_title=Contribution+activity+%7C+last+31+days" alt="Contribution activity over the last 31 days. Click to explore the native calendar." width="98%" /></a>
+  <a href="https://github.com/addicted2crypto">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=addicted2crypto&hide_border=true&bg_color=0D1117&color=A8B3C2&title_color=F0F6FC&line=22D3EE&point=F0F6FC&area=true&area_color=22D3EE&custom_title=Contribution+activity+%7C+last+31+days" alt="Contribution activity over the last 31 days" width="98%" />
+  </a>
 </p>
 
 [DCGP commit history](https://github.com/addicted2crypto/DCGP/commits) · [DCGP releases](https://github.com/addicted2crypto/DCGP/releases) · [WillAgent releases](https://github.com/addicted2crypto/willagent/releases)
 
-<sub>Cards refresh periodically and use different scopes: account-history streak totals, commit totals, recent reviews/repositories, and a 31-day activity graph. The two language cards use different summaries; neither measures coding time or proficiency. Private-work visibility depends on the provider. Year and language links open the matching GitHub view.</sub>
+<sub>Cards refresh periodically and use different scopes: account-history streak totals, commit totals, recent reviews/repositories, and a 31-day activity graph. The two language cards use different summaries; neither measures coding time or proficiency.</sub>
 
 ---
 
-## Currently Building
+## Now Building
 
-- Onchain truth. Get all your real data from investing in anything but BTC. Data matters.
-- WillAgent Live: landing page, smart wallet index (1047 identities), token radar, and contract analysis on the local AI stack
-- WillAgent orchestration and developer automation workflows
-- DCGP governance harness for zero-hallucination local model output
-- GymTech multi-tenant SaaS to production
-- Expanding onchaintruth.xyz data pipelines and analytics
+- Local AI orchestration and secure autonomous workflows
+- DCGP governance systems for robust agent behavior and context control
+- Production on-chain analytics and market intelligence products
+- GymTech multi-tenant SaaS infrastructure and operations
+- Expansion of secure data pipelines and research tooling
+
+---
+
+## Open to
+
+AI engineering, secure full-stack systems, data platform engineering, autonomous systems architecture, and high-trust software delivery.
 
 ---
 
@@ -220,4 +215,3 @@ Security is the floor, not a feature. DoD-cleared, Security+ certified, and a 44
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Will-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/william360)
 [![Portfolio](https://img.shields.io/badge/Portfolio-William%20Heeb-58A6FF?style=for-the-badge&logo=vercel&logoColor=white)](https://williamsforeverportfolio.vercel.app)
 [![CodePen](https://img.shields.io/badge/CodePen-addicted2crypto-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/addicted2crypto)
-
