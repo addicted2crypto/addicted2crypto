@@ -2,15 +2,31 @@
 
 <h1>Will · addicted2crypto</h1>
 
-<p><strong>Secure systems · Local AI · On-chain research</strong></p>
+<p><strong>AI &amp; Full-Stack Engineer &middot; C#/.NET &middot; SQL &amp; Data Systems</strong></p>
+
+<p>
+<a href="https://williamsforeverportfolio.vercel.app" title="Explore my work">
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px) and (prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;weight=600&amp;size=16&amp;duration=1&amp;pause=1&amp;color=007D9C&amp;center=true&amp;vCenter=true&amp;width=360&amp;height=54&amp;repeat=false&amp;lines=Security+first.+Still+learning.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;weight=600&amp;size=16&amp;duration=1&amp;pause=1&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=360&amp;height=54&amp;repeat=false&amp;lines=Security+first.+Still+learning.">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;duration=1&amp;pause=1&amp;color=007D9C&amp;center=true&amp;vCenter=true&amp;width=840&amp;height=58&amp;repeat=false&amp;lines=Security+first.+Still+learning.">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;duration=1&amp;pause=1&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=840&amp;height=58&amp;repeat=false&amp;lines=Security+first.+Still+learning.">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;weight=600&amp;size=16&amp;duration=1800&amp;pause=1600&amp;color=007D9C&amp;center=true&amp;vCenter=true&amp;width=360&amp;height=54&amp;repeat=true&amp;lines=Built.+Hardened.+Shipped.%3BDCGP%3A+context+governance%3BLocal+AI.+Typed+tools.%3Bonchaintruth+research%3BSecurity+first.+Still+learning.">
+  <source media="(max-width: 600px)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;weight=600&amp;size=16&amp;duration=1800&amp;pause=1600&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=360&amp;height=54&amp;repeat=true&amp;lines=Built.+Hardened.+Shipped.%3BDCGP%3A+context+governance%3BLocal+AI.+Typed+tools.%3Bonchaintruth+research%3BSecurity+first.+Still+learning.">
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;duration=1800&amp;pause=1600&amp;color=007D9C&amp;center=true&amp;vCenter=true&amp;width=840&amp;height=58&amp;repeat=true&amp;lines=Built+it.+Hardened+it.+Shipped+it.%3BDCGP%3A+context+governance+for+agents.%3BLocal+AI%3A+typed+tools+and+routing.%3Bonchaintruth%3A+data%2C+models%2C+dashboards.%3BSecurity+first.+Still+learning.">
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;duration=1800&amp;pause=1600&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=840&amp;height=58&amp;repeat=true&amp;lines=Built+it.+Hardened+it.+Shipped+it.%3BDCGP%3A+context+governance+for+agents.%3BLocal+AI%3A+typed+tools+and+routing.%3Bonchaintruth%3A+data%2C+models%2C+dashboards.%3BSecurity+first.+Still+learning." alt="Built it. Hardened it. Shipped it. DCGP, local AI tooling, and onchaintruth research. Open my portfolio." width="100%">
+</picture>
+</a>
+</p>
 
 <p><code>C#</code> · <code>.NET</code> · <code>SQL</code> · <code>TypeScript</code> · <code>Python</code> · <code>JavaScript</code></p>
 
 <p>
-  <a href="https://github.com/addicted2crypto/DCGP"><strong>DCGP</strong></a> ·
-  <a href="https://github.com/addicted2crypto/willagent">WillAgent</a> ·
-  <a href="#onchaintruth-dashboards-and-data">Research dashboards</a> ·
-  <a href="https://williamsforeverportfolio.vercel.app">Portfolio</a> ·
+  <a href="https://williamsforeverportfolio.vercel.app/resume_1page.html"><strong>Resume</strong></a> &middot;
+  <a href="#work-history-and-delivery">Experience</a> &middot;
+  <a href="https://github.com/addicted2crypto/DCGP"><strong>DCGP</strong></a> &middot;
+  <a href="#onchaintruth-dashboards-and-data">Research dashboards</a> &middot;
+  <a href="https://williamsforeverportfolio.vercel.app">Portfolio</a> &middot;
   <a href="https://linkedin.com/in/william360">LinkedIn</a>
 </p>
 
@@ -20,7 +36,7 @@
 
 I’m an **AI and full-stack engineer with 8+ years shipping production systems**. C#/.NET, SQL, and secure enterprise applications are my foundation. Today I’m building context governance, local agent tooling, and on-chain data products.
 
-My day job is DoD contract engineering. Outside work, I build **DCGP**, work on **WillAgent and EVM Sleuth**, and ship research through **onchaintruth**. I like working through the whole problem: the context, the tool calls, the data model, and the application someone actually uses.
+At work, I build and support **DHA.mil in C#/.NET and Sitecore** as a DoD contractor. My background includes AI engineering leadership, B2B platforms, and technical operations. Outside work, I build **DCGP**, work on **WillAgent and EVM Sleuth**, and ship research through **onchaintruth**. I like working through the whole problem: the context, the tool calls, the data model, and the application someone actually uses.
 
 **Built it. Hardened it. Shipped it. Still learning.**
 
@@ -122,15 +138,17 @@ The [public hub source](https://github.com/addicted2crypto/onchaintruth) brings 
 
 I want the inputs, assumptions, and benchmarks behind a result to be inspectable.
 
-## The experience behind the builds
+## Work history and delivery
 
-**Federal health & enterprise.** Work across DHA.mil, health.mil, and TRICARE: C#/.NET, Sitecore, ASP.NET MVC, and Docker. My background also includes NestJS SDK tooling and Hyperledger Iroha integrations. Security, accessibility, and operating constraints are part of the work.
+- **Software Engineer · BDR Solutions / DHA.** Public DHA.mil delivery on Sitecore and .NET MVC, containerized development, and Section 508 accessibility. Prior federal health work through Chenega and Semper Valens covered health.mil, TRICARE, SDK tooling, and Hyperledger Iroha.
+- **Lead Software Engineer · Anything_AI.** MCP frameworks and language SDKs, RAG pipelines, OAuth2 integrations, and input sanitization.
+- **Software Engineer · EAS.** B2B applications with authentication, Stripe payments, real-time data, and self-service administration.
+- **Founder & Lead Developer · GymTech.** Building [multi-tenant gym SaaS](https://github.com/addicted2crypto/gymtech): roles, subscriptions, billing, QR check-in, and database-enforced tier limits. In development.
+- **Tech Manager & AI Trainer · Sears Home Service.** Field operations leadership, AI routing rollout and feedback, internal application troubleshooting, and SQL data-sync fixes. That hands-on diagnostics background still shapes how I build.
 
-**GymTech.** Building a [multi-tenant gym SaaS](https://github.com/addicted2crypto/gymtech): roles, subscriptions, billing, QR check-in, and database-enforced tier limits. In development.
+**Security background:** CompTIA Security+ · DoD IAT II background.
 
-**Hands-on diagnostics.** A decade in appliance repair taught me to trace faults through a system. Appliance Consult grew out of turning that repair knowledge into software.
-
-**Security background:** CompTIA Security+ · DoD IAT II experience.
+[One-page resume](https://williamsforeverportfolio.vercel.app/resume_1page.html) · [Full work history](https://williamsforeverportfolio.vercel.app/resume_2page.html)
 
 <details>
 <summary>Earlier work, leadership, and experiments</summary>
@@ -172,6 +190,6 @@ Browse by language: [C#](https://github.com/search?q=user%3Aaddicted2crypto+lang
 
 ## Let’s build
 
-Open to engineering work and collaboration across **AI systems, developer tooling, secure full-stack engineering, data platforms, and on-chain research**.
+Open to **senior and lead engineering opportunities** across **C#/.NET backend, full-stack development, applied AI, developer tooling, and data platforms**. I’m also open to collaboration on context governance and on-chain research.
 
 [Portfolio](https://williamsforeverportfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/william360) · [X / @willisdeving](https://twitter.com/willisdeving) · [CodePen](https://codepen.io/addicted2crypto)
