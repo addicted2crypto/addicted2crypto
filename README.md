@@ -1,20 +1,15 @@
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-light.svg">
-  <img src="./assets/profile-dark.svg" alt="Will / addicted2crypto — secure systems, AI engineering, and on-chain research. Building DCGP and onchaintruth." width="100%">
-</picture>
-
 <div align="center">
 
-<h1>Hey, I’m Will.</h1>
+<h1>Will · addicted2crypto</h1>
 
-<p><strong>AI &amp; full-stack engineer · C#/.NET · SQL &amp; data research · Security first</strong></p>
+<p><strong>Secure systems · Local AI · On-chain research</strong></p>
 
 <p><code>C#</code> · <code>.NET</code> · <code>SQL</code> · <code>TypeScript</code> · <code>Python</code> · <code>JavaScript</code></p>
 
 <p>
   <a href="https://github.com/addicted2crypto/DCGP"><strong>DCGP</strong></a> ·
-  <a href="https://hcash.onchaintruth.xyz"><strong>hCASH Oracle</strong></a> ·
-  <a href="https://moat.onchaintruth.xyz/leaderboard"><strong>Moat research</strong></a> ·
+  <a href="https://github.com/addicted2crypto/willagent">WillAgent</a> ·
+  <a href="#onchaintruth-dashboards-and-data">Research dashboards</a> ·
   <a href="https://williamsforeverportfolio.vercel.app">Portfolio</a> ·
   <a href="https://linkedin.com/in/william360">LinkedIn</a>
 </p>
@@ -23,148 +18,160 @@
 
 ---
 
-I build secure software, local AI systems, and tools that turn data into something useful. **8+ years shipping production systems**, with C#/.NET and SQL at the foundation and AI orchestration, research pipelines, and full-stack products on top.
+I’m an **AI and full-stack engineer with 8+ years shipping production systems**. C#/.NET, SQL, and secure enterprise applications are my foundation. Today I’m building context governance, local agent tooling, and on-chain data products.
 
-My day job is DoD contract engineering. Outside work, I’m building **DCGP** and shipping research through **onchaintruth**. I like working through the whole problem: the context an agent sees, the tools it can call, the data behind an answer, and the application someone actually uses.
+My day job is DoD contract engineering. Outside work, I build **DCGP**, work on **WillAgent and EVM Sleuth**, and ship research through **onchaintruth**. I like working through the whole problem: the context, the tool calls, the data model, and the application someone actually uses.
 
 **Built it. Hardened it. Shipped it. Still learning.**
 
-## DCGP · the governance layer
+## Systems around the research
 
-**Dynamic Context Guidance Paths — the semantic operating system for LLM agents.** My work on keeping long-running AI sessions grounded in the project they’re working on. The problem that interests me: as a session grows, how do you detect degrading context, intervene, and protect the information that still matters?
+I work across governance, execution, investigation, and delivery. Each has a different job:
 
-DCGP runs a **seven-step control loop** around an agent. It senses the workspace, classifies the domain, tracks context health, injects project anchors, checks output, and feeds those signals back into retention policy.
+| System | What it owns |
+| :--- | :--- |
+| **[DCGP](https://github.com/addicted2crypto/DCGP)** · governance | Workspace grounding, context health, output gates, domain drift, and the retention contract for long-running agents. |
+| **[WillAgent](https://github.com/addicted2crypto/willagent)** · execution | Local/API model routing, a ReACT execution loop, typed tool registration, task cancellation, and audit logs. |
+| **EVM Sleuth** · private research | Wallet tracking, contract analysis, token intelligence, and investigation workflows. |
+| **onchaintruth** · dashboards & data | Mining economics, wallet profitability, strategy benchmarks, collection jobs, and the interfaces for exploring the results. |
 
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/dcgp-loop-mobile-light.svg">
-  <source media="(max-width: 600px)" srcset="./assets/dcgp-loop-mobile-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/dcgp-loop-light.svg">
-  <img src="./assets/dcgp-loop-dark.svg" alt="DCGP loop: Sense, Classify, Predict, Orchestrate, Execute, Verify, Refine, then repeat. Context health informs retention through a RetentionDirective." width="100%">
-</picture>
+I want to trace an answer back through the context, tool calls, and data that produced it.
 
-- **Context health:** five factors combine into a Health Index, with hysteresis and cooldowns controlling interventions.
-- **Retention with rules:** `RetentionDirective` connects that health signal to pruning consumers; protected paths stay protected.
-- **Checks you can inspect:** output gates, domain drift detection, deterministic scoring, and Sentinel tests.
-- **Tools around the core:** CLI, MCP server, OpenCode integration, VS Code extension, `vibe-audit` static analysis, and a fine-tuning exporter.
+### DCGP — context governance with a feedback loop
 
-The research is in the feedback loop, failure modes, and retention contract. The implementation is there to inspect, run, and challenge.
+**Dynamic Context Guidance Paths: the semantic operating system for LLM agents.** I’m working on a practical question: as an agent session grows, how do you detect context degradation, intervene, and preserve what still matters?
+
+```mermaid
+flowchart TB
+    A["Sense + Classify"] --> B["Predict context health"]
+    B --> C["Orchestrate + Execute"]
+    C --> D["Verify + Refine"]
+    D --> A
+    classDef context fill:#112b3c,stroke:#38bdf8,color:#e0f2fe
+    classDef action fill:#29213e,stroke:#a78bfa,color:#ede9fe
+    class A,B context
+    class C,D action
+```
+
+- **Measure context health.** Five factors feed a Health Index; hysteresis and cooldowns control interventions.
+- **Make retention explicit.** `RetentionDirective` gives consumers a retention floor and protected paths.
+- **Make behavior inspectable.** Deterministic scoring, output gates, drift detection, and Sentinel tests expose the rules and failure modes.
+
+The ecosystem includes a CLI, MCP server, OpenCode integration, VS Code extension, `vibe-audit`, and a fine-tuning exporter.
+
+[Read the specification](https://github.com/addicted2crypto/DCGP/blob/main/DCGP-SPEC.md) · [Inspect the tests](https://github.com/addicted2crypto/DCGP/tree/main/packages/core/tests) · [Run verification](https://github.com/addicted2crypto/DCGP/blob/main/scripts/verify-dcgp.sh)
 
 <details>
-<summary>Under the hood: context health & retention</summary>
+<summary>Inside the retention contract</summary>
 
-The Health Index combines gate pressure, domain drift, confidence decay, citation pressure, and session age. Its response is graduated:
+The seven steps are **Sense → Classify → Predict → Orchestrate → Execute → Verify → Refine**. The diagram groups them into four stages for readability.
 
-| Health level | Retention directive | Retention floor |
+The Health Index combines gate pressure, drift pressure, confidence decay, citation pressure, and session age.
+
+| Health level | Directive | Retention floor |
 | :--- | :--- | :--- |
 | NOMINAL | PASSIVE | 0.20 |
 | ELEVATED | TIGHTEN | 0.40 |
 | HIGH | AGGRESSIVE | 0.65 |
 | CRITICAL | NUCLEAR | 0.90 |
 
-Consumers keep blocks that meet the floor **or** match a protected path. Hysteresis, cooldowns, and partial resets handle stability across turns and domain changes.
+Consumers retain a block when its score meets the floor **or** its path is protected. Partial resets preserve gate/drift history across domain changes.
 
 </details>
 
-[Source](https://github.com/addicted2crypto/DCGP) · [Specification](https://github.com/addicted2crypto/DCGP/blob/main/DCGP-SPEC.md) · [Sentinel tests](https://github.com/addicted2crypto/DCGP/tree/main/packages/core/tests) · [Verification](https://github.com/addicted2crypto/DCGP/blob/main/scripts/verify-dcgp.sh)
+### WillAgent & EVM Sleuth — tools and investigation
 
-## onchaintruth · research you can use
+**WillAgent** is where model routing meets execution: reason, select a tool, inspect the result, and continue. Its public implementation includes a ReACT orchestrator and a typed registry with tool filtering and timeouts.
 
-On-chain research is where I put data engineering, financial modeling, and application development together. I build the collection pipeline, work through the model, and ship an interface that makes the result useful.
+[Orchestrator source](https://github.com/addicted2crypto/willagent/blob/master/src/agent/agent-orchestrator.service.ts) · [Tool registry](https://github.com/addicted2crypto/willagent/blob/master/src/tools/tool-registry.service.ts)
 
-I start with concrete questions: **Where is break-even? What did this strategy actually return? What was the opportunity cost?**
+**EVM Sleuth** is my private research work on wallet behavior, contracts, and token intelligence. My interests here include adversarial analysis, threat modeling, and Foundry proofs of concept. Earlier public wallet-tracking work is available in [Wallet_Slueth_Public](https://github.com/addicted2crypto/Wallet_Slueth_Public).
 
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/research-mobile-light.svg">
-  <source media="(max-width: 600px)" srcset="./assets/research-mobile-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/research-light.svg">
-  <img src="./assets/research-dark.svg" alt="Onchaintruth research workflow: collect chain and market data, model costs and benchmarks, then publish calculators and strategy comparisons. Wallet and contract research is a separate ongoing track." width="100%">
-</picture>
+## onchaintruth dashboards and data
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://hcash.onchaintruth.xyz">hCASH ROI Oracle ↗</a></h3>
-<p><strong>Where is the mining break-even?</strong></p>
-<p>ROI and scenario analysis on Avalanche, bringing together AVAX/USD oracle pricing, hCASH market data, and on-chain marketplace and contract reads.</p>
-<p><code>Chainlink</code> · <code>DexScreener</code> · <code>Avalanche</code></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://moat.onchaintruth.xyz/leaderboard">Moat OCA / MOCA ↗</a></h3>
-<p><strong>Did the strategy beat holding AVAX or BTC?</strong></p>
-<p>Wallet analysis, strategy comparisons, and opportunity-cost modeling, with a leaderboard for exploring results.</p>
-<p><code>Next.js</code> · <code>TypeScript</code> · <code>On-chain data</code></p>
-</td>
-</tr>
-</table>
+I build the collection jobs, work through the models, and ship tools for concrete questions: **Where is break-even? What did a wallet actually earn? Did the strategy beat holding AVAX or BTC?**
 
-I want the numbers, assumptions, and benchmarks behind a result to be inspectable.
+```mermaid
+flowchart TB
+    A["Read chain + market inputs"] --> B["Validate + snapshot"]
+    B --> C["Model costs + returns"]
+    C --> D["Publish research tools"]
+    classDef data fill:#10352b,stroke:#34d399,color:#d1fae5
+    classDef output fill:#112b3c,stroke:#38bdf8,color:#e0f2fe
+    class A,B data
+    class C,D output
+```
 
-## The systems around the research
+### hCASH — mining economics and wallet profitability
 
-| Project | What I’m building |
-| :--- | :--- |
-| [WillAgent](https://github.com/addicted2crypto/willagent) | Self-hosted orchestration: local and API model routing, typed tools, audit logs, token discovery, and wallet analysis. |
-| **EVMSleuth** · private | Wallet tracking, contract analysis, and token intelligence. Related research interests include threat modeling and Foundry proofs of concept. |
-| [GymTech](https://github.com/addicted2crypto/gymtech) · in development | Multi-tenant gym SaaS: roles, subscriptions, billing, QR check-in, and database-enforced tier limits. |
+The [ROI Oracle](https://hcash.onchaintruth.xyz) combines AVAX/USD oracle pricing, hCASH market data, and contract/marketplace reads. The build extends into [profitability analysis](https://hcash.onchaintruth.xyz/profitability) and [wallet research](https://hcash.onchaintruth.xyz/wallets).
 
-## The background behind the builds
+The engineering behind those screens:
 
-**Federal health & enterprise engineering.** Work across DHA.mil, health.mil, and TRICARE, with C#/.NET, Sitecore, ASP.NET MVC, and Docker. My background also includes NestJS SDK tooling and Hyperledger Iroha integrations. Security, accessibility, and operating constraints are part of the engineering work.
+- **Profitability scans:** facility economics and per-wallet realized/paper P&L, using a shared block snapshot and saved checkpoints. [Scan implementation](https://github.com/addicted2crypto/hcash_roi/blob/master/lib/profitability-scan.js)
+- **Data integrity:** registry cross-checks, surfaced data gaps, and raw inputs attached to wallet results. [Integrity checks](https://github.com/addicted2crypto/hcash_roi/blob/master/lib/registry-integrity.js)
+- **Collection and serving:** scheduled watchers, live leaderboard endpoints, cached reads, persisted snapshots, and RPC failover. [Data layer](https://github.com/addicted2crypto/hcash_roi/tree/master/lib) · [API routes](https://github.com/addicted2crypto/hcash_roi/tree/master/app/api)
 
-**From hands-on diagnostics to software.** Before software, I spent a decade in appliance repair. That habit of tracing a fault through a system still shapes how I build. Appliance Consult grew out of turning repair knowledge into a usable application.
+### Moat OCA / MOCA — strategy performance against a baseline
 
-**Security background:** CompTIA Security+ · DoD IAT II experience · secure enterprise systems.
+The [opportunity-cost analyzer and leaderboard](https://moat.onchaintruth.xyz/leaderboard) explore wallet activity and strategy returns against AVAX/BTC benchmarks. I’m interested in what a strategy earned relative to the alternatives, and in making that comparison usable.
+
+### onchaintruth hub — public comparisons and project access
+
+The [public hub source](https://github.com/addicted2crypto/onchaintruth) brings the dashboard links and editable relative-return scenarios together. It is a lightweight HTML/CSS/JavaScript front end with a public BTC spot quote and explicit scenario assumptions.
+
+I want the inputs, assumptions, and benchmarks behind a result to be inspectable.
+
+## The experience behind the builds
+
+**Federal health & enterprise.** Work across DHA.mil, health.mil, and TRICARE: C#/.NET, Sitecore, ASP.NET MVC, and Docker. My background also includes NestJS SDK tooling and Hyperledger Iroha integrations. Security, accessibility, and operating constraints are part of the work.
+
+**GymTech.** Building a [multi-tenant gym SaaS](https://github.com/addicted2crypto/gymtech): roles, subscriptions, billing, QR check-in, and database-enforced tier limits. In development.
+
+**Hands-on diagnostics.** A decade in appliance repair taught me to trace faults through a system. Appliance Consult grew out of turning that repair knowledge into software.
+
+**Security background:** CompTIA Security+ · DoD IAT II experience.
 
 <details>
-<summary><strong>More work along the way</strong> — earlier products, experiments, and interests</summary>
+<summary>Earlier work, leadership, and experiments</summary>
 
 | Work | Focus |
 | :--- | :--- |
-| **Learning Tutor** | Adaptive learning plans and LLM-assisted tutoring, originally built to support my Security+ study. |
-| **Appliance Consult** | AI-assisted repair guidance, billing, and a production database. |
-| **Command Center** | Development team leadership on a wallet tracker with multi-chain indexing and DeFi views. |
-| **CFT** | Decentralized market pools, transaction indexing, and visibility into on-chain activity. |
+| **[Appliance Consult](https://github.com/addicted2crypto/williams_appliance_consult)** | AI-assisted repair guidance, billing, and a production database. |
+| **Learning Tutor** | Adaptive learning plans and LLM-assisted tutoring, built to support my Security+ study. |
+| **[Command Center](https://github.com/addicted2crypto/command-center)** | Development team leadership on a wallet tracker with multi-chain indexing and DeFi views. |
+| **CFT** | Decentralized market pools and transaction indexing. |
+| **[bashBot](https://github.com/addicted2crypto/bashBot)** | Python automation and developer tooling. |
 
-More project context is on my [portfolio](https://williamsforeverportfolio.vercel.app/#projects).
+More project context is on my [portfolio](https://williamsforeverportfolio.vercel.app).
 
 </details>
 
-## My working stack
+## Working stack & interests
 
-| Area | Tools & technologies |
+| Area | Tools I work with |
 | :--- | :--- |
-| Enterprise & backend | **C#, .NET, ASP.NET MVC, Sitecore** · Node.js, NestJS |
-| Data & infrastructure | **SQL, PostgreSQL** · Redis, BullMQ, Docker, Supabase, Azure |
-| AI & automation | **Python, local LLMs, Ollama** · Claude API, RAG, agents, MCP |
+| Enterprise & backend | **C#, .NET, SQL** · ASP.NET MVC, Sitecore, Node.js, NestJS |
+| Data & operations | **PostgreSQL, Redis, Docker** · BullMQ, Supabase, Azure |
+| AI & automation | **Python, Ollama, local LLMs** · Claude API, RAG, agents, MCP |
 | Applications | **TypeScript, JavaScript, React, Next.js** · Tailwind CSS, Framer Motion |
-| On-chain & security research | **Solidity, Foundry, Avalanche** · viem, wagmi, Chainlink |
+| On-chain research | **Solidity, Foundry, Avalanche** · viem, wagmi, Chainlink |
+
+What keeps me interested: **context retention, local model orchestration, SQL-first research, wallet intelligence, adversarial testing, and secure SaaS**.
 
 <details>
-<summary>Broader toolkit</summary>
+<summary>Broader toolkit & public code</summary>
 
 Other work and experiments include Rust, Go, Java, Express, Django, MongoDB, Prisma, and Drizzle.
 
-</details>
-
-## What keeps me interested
-
-- Local models doing useful work, with clear tool boundaries and a trail you can inspect.
-- Context retention, RAG, and how agent behavior changes over long sessions.
-- SQL-first research, oracle data, on-chain signals, and honest benchmark comparisons.
-- Smart contract analysis, wallet intelligence, and adversarial testing.
-- Secure SaaS, tenant isolation, and the infrastructure behind reliable applications.
-
-## Let’s build
-
-I’m open to work and collaboration across **AI systems, developer tooling, secure full-stack engineering, data platforms, and on-chain research**.
-
-[Portfolio](https://williamsforeverportfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/william360) · [X / @willisdeving](https://twitter.com/willisdeving) · [CodePen](https://codepen.io/addicted2crypto)
-
-<details>
-<summary>Public code & activity</summary>
-
-[Repositories](https://github.com/addicted2crypto?tab=repositories) · [Contributions](https://github.com/addicted2crypto) · [DCGP commits](https://github.com/addicted2crypto/DCGP/commits) · [DCGP releases](https://github.com/addicted2crypto/DCGP/releases)
+[All repositories](https://github.com/addicted2crypto?tab=repositories) · [Contribution activity](https://github.com/addicted2crypto) · [DCGP commits](https://github.com/addicted2crypto/DCGP/commits) · [Releases](https://github.com/addicted2crypto/DCGP/releases)
 
 Browse by language: [C#](https://github.com/search?q=user%3Aaddicted2crypto+language%3AC%23&type=repositories) · [SQL](https://github.com/search?q=user%3Aaddicted2crypto+language%3ASQL&type=repositories) · [TypeScript](https://github.com/search?q=user%3Aaddicted2crypto+language%3ATypeScript&type=repositories) · [Python](https://github.com/search?q=user%3Aaddicted2crypto+language%3APython&type=repositories) · [JavaScript](https://github.com/search?q=user%3Aaddicted2crypto+language%3AJavaScript&type=repositories)
 
 </details>
+
+## Let’s build
+
+Open to engineering work and collaboration across **AI systems, developer tooling, secure full-stack engineering, data platforms, and on-chain research**.
+
+[Portfolio](https://williamsforeverportfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/william360) · [X / @willisdeving](https://twitter.com/willisdeving) · [CodePen](https://codepen.io/addicted2crypto)
